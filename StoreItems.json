@@ -499,7 +499,7 @@
 		"defname": "PJ_UltimaPearl"
 	},
 	{
-		"abr": "xma-1"leviathan"mechanizedcombatarmature",
+		"abr": "xma-1leviathanmechanizedcombatarmature",
 		"price": 8333,
 		"category": "Apparel",
 		"defname": "Apparel_Leviathan"
@@ -3529,7 +3529,7 @@
 		"defname": "BigTiberiumFiend"
 	},
 	{
-		"abr": "xma-1"leviathan"mcahelmet",
+		"abr": "xma-1leviathanmcahelmet",
 		"price": 2500,
 		"category": "Apparel",
 		"defname": "Apparel_LeviathanH"
