@@ -14,7 +14,6 @@
     <script type="text/javascript">
         const itemListURL = "https://raw.githubusercontent.com/orionplay/rimworlditens/master/StoreItems.json";
         const eventListURL = "https://raw.githubusercontent.com/orionplay/rimworlditens/master/StoreEvents.json";
-	const traitListURL = "https://raw.githubusercontent.com/orionplay/rimworlditens/master/ShopExt.json";
     </script>
 </head>
 
@@ -68,9 +67,6 @@
                                     </button>
                                     <button class="btn btn-success" ng-class="{'active': (selected == '2')}" ng-click='selected=2'>
                                         Events
-                                    </button>
-					<button class="btn btn-success" ng-class="{'active': (selected == '3')}" ng-click='selected=3'>
-                                        Traits
                                     </button>
                                 </div>
                                 <div class="form-group row">
@@ -140,34 +136,6 @@
                                     <th scope="col" class="sort" data-sort="abr">Name</th>
                                     <th scope="col" class="sort" data-sort="price">Price</th>
                                     <th scope="col" class="sort" data-sort="karmatype">Karma</th>
-                                </tr>
-                                <tbody class="list">
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-		<div class="row" ng-show='selected == 3'>
-                    <div class="col-md-12">
-                        <div id="traits">
-                            <div class="input-group input-group-sm mb-3">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" id="inputGroup-sizing-sm">Search</span>
-                                </div>
-                                <input type="text" class="form-control search" aria-label="Search" aria-describedby="inputGroup-sizing-sm">
-                            </div>
-                            <p>
-                                <button type="button" class="btn btn-primary sort" data-sort="abr">
-                                    Sort
-                                </button>
-                                <button type="button" class="btn btn-primary sort" data-sort="price">
-                                    Sort by Price
-                                </button>
-                            </p>
-                            <table class="table items">
-                                <tr>
-                                    <th scope="col" class="sort" data-sort="abr">Name</th>
-                                    <th scope="col" class="sort" data-sort="price">Price</th>
                                 </tr>
                                 <tbody class="list">
                                 </tbody>
@@ -273,23 +241,6 @@
             });
 
             eventList = new List('events', options, eventData);
-        });
-	    
-	let eventList = null;
-        $.getJSON(traitListURL, function(data) {
-            var options = {
-                valueNames: ['abr', 'price'],
-                item: '<tr><td class="abr" scope="row"></td><td class="addPrice"></td></tr>'
-            };
-
-            var eventData = [];
-            $.each(data.incitems, function(index, value) {
-                if (value["price"] > 0) {
-                    eventData.push(value);
-                }
-            });
-
-            traitList = new List('trait', options, eventData);
         });
 
         $("#item-price-min").keyup(function() {
