@@ -168,7 +168,6 @@
                                 <tr>
                                     <th scope="col" class="sort" data-sort="abr">Name</th>
                                     <th scope="col" class="sort" data-sort="price">Price</th>
-                                    <th scope="col" class="sort" data-sort="category">Category</th>
                                 </tr>
                                 <tbody class="list">
                                 </tbody>
@@ -274,6 +273,23 @@
             });
 
             eventList = new List('events', options, eventData);
+        });
+	    
+	let eventList = null;
+        $.getJSON(traitListURL, function(data) {
+            var options = {
+                valueNames: ['abr', 'price'],
+                item: '<tr><td class="abr" scope="row"></td><td class="price"></td></tr>'
+            };
+
+            var eventData = [];
+            $.each(data.incitems, function(index, value) {
+                if (value["price"] > 0) {
+                    eventData.push(value);
+                }
+            });
+
+            traitList = new List('trait', options, eventData);
         });
 
         $("#item-price-min").keyup(function() {
