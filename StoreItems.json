@@ -5459,7 +5459,553 @@
 		"price": 3333,
 		"category": "Melee weapons",
 		"defname": "MeleeWeapon_Zeushammer"
+	},
+	{
+		"abr": "aimanager",
+		"price": 7833,
+		"category": "Production",
+		"defname": "FM_AIManager"
+	},
+	{
+		"abr": "air-conindoorunit",
+		"price": 82,
+		"category": "Hygiene",
+		"defname": "AirconIndoorUnit"
+	},
+	{
+		"abr": "air-conoutdoorunit",
+		"price": 458,
+		"category": "Hygiene",
+		"defname": "AirConOutdoorUnit"
+	},
+	{
+		"abr": "basicmanagerdesk",
+		"price": 262,
+		"category": "Production",
+		"defname": "FM_BasicManagerStation"
+	},
+	{
+		"abr": "basin",
+		"price": 52,
+		"category": "Hygiene",
+		"defname": "BasinStuff"
+	},
+	{
+		"abr": "bathtub",
+		"price": 124,
+		"category": "Hygiene",
+		"defname": "BathtubStuff"
+	},
+	{
+		"abr": "biosolids",
+		"price": 0,
+		"category": "Waste",
+		"defname": "Biosolids"
+	},
+	{
+		"abr": "biosolidscomposter",
+		"price": 146,
+		"category": "Hygiene",
+		"defname": "BiosolidsComposter"
+	},
+	{
+		"abr": "bullpuppistol",
+		"price": 500,
+		"category": "Ranged weapons",
+		"defname": "AC_Gun_BullpupPistol"
+	},
+	{
+		"abr": "ceilingfan1x1",
+		"price": 184,
+		"category": "Hygiene",
+		"defname": "CeilingFanS"
+	},
+	{
+		"abr": "ceilingfan2x2",
+		"price": 184,
+		"category": "Hygiene",
+		"defname": "CeilingFan"
+	},
+	{
+		"abr": "circuitbreaker",
+		"price": 278,
+		"category": "Power",
+		"defname": "Building_RTCircuitBreaker"
+	},
+	{
+		"abr": "cleanerbasestation",
+		"price": 1917,
+		"category": "Furniture",
+		"defname": "AIRobot_RechargeStation_Cleaner"
+	},
+	{
+		"abr": "cleaningbot",
+		"price": 17,
+		"category": "Animal",
+		"defname": "AIRobot_Cleaner"
+	},
+	{
+		"abr": "corticalstack",
+		"price": 1667,
+		"category": "Ultratech",
+		"defname": "AC_FilledCorticalStack"
+	},
+	{
+		"abr": "doormat",
+		"price": 8,
+		"category": "Furniture",
+		"defname": "LT_DoorMatLeather"
+	},
+	{
+		"abr": "doormat(blue)",
+		"price": 8,
+		"category": "Furniture",
+		"defname": "LT_DoorMatBlue"
+	},
+	{
+		"abr": "doormat(green)",
+		"price": 8,
+		"category": "Furniture",
+		"defname": "LT_DoorMatGreen"
+	},
+	{
+		"abr": "doormat(orange)",
+		"price": 8,
+		"category": "Furniture",
+		"defname": "LT_DoorMatOrange"
+	},
+	{
+		"abr": "doormat(red)",
+		"price": 8,
+		"category": "Furniture",
+		"defname": "LT_DoorMatRed"
+	},
+	{
+		"abr": "doormat(teal)",
+		"price": 8,
+		"category": "Furniture",
+		"defname": "LT_DoorMatTeal"
+	},
+	{
+		"abr": "dualrefrigerator",
+		"price": 186,
+		"category": "Furniture",
+		"defname": "RimFridge_Refrigerator"
+	},
+	{
+		"abr": "electricboiler",
+		"price": 425,
+		"category": "Hygiene",
+		"defname": "ElectricBoiler"
+	},
+	{
+		"abr": "electricpump",
+		"price": 316,
+		"category": "Hygiene",
+		"defname": "ElectricPump"
+	},
+	{
+		"abr": "emptycorticalstack",
+		"price": 1667,
+		"category": "Ultratech",
+		"defname": "AC_EmptyCorticalStack"
+	},
+	{
+		"abr": "firesprinkler",
+		"price": 104,
+		"category": "Hygiene",
+		"defname": "FireSprinkler"
+	},
+	{
+		"abr": "fountain",
+		"price": 52,
+		"category": "Hygiene",
+		"defname": "Fountain"
+	},
+	{
+		"abr": "gasboiler",
+		"price": 425,
+		"category": "Hygiene",
+		"defname": "GasBoiler"
+	},
+	{
+		"abr": "haulerbasestation",
+		"price": 2917,
+		"category": "Furniture",
+		"defname": "AIRobot_RechargeStation_Hauler"
+	},
+	{
+		"abr": "haulingbot",
+		"price": 17,
+		"category": "Animal",
+		"defname": "AIRobot_Hauler"
+	},
+	{
+		"abr": "hottub",
+		"price": 800,
+		"category": "Hygiene",
+		"defname": "HotTub"
+	},
+	{
+		"abr": "hotwatertank",
+		"price": 245,
+		"category": "Hygiene",
+		"defname": "HotWaterTank"
+	},
+	{
+		"abr": "irrigationsprinkler",
+		"price": 102,
+		"category": "Hygiene",
+		"defname": "IrrigationSprinkler"
+	},
+	{
+		"abr": "kitchensink",
+		"price": 167,
+		"category": "Hygiene",
+		"defname": "KitchenSink"
+	},
+	{
+		"abr": "largedoormat",
+		"price": 13,
+		"category": "Furniture",
+		"defname": "LT_DoorMatBigLeather"
+	},
+	{
+		"abr": "largedoormat(blue)",
+		"price": 13,
+		"category": "Furniture",
+		"defname": "LT_DoorMatBigBlue"
+	},
+	{
+		"abr": "largedoormat(green)",
+		"price": 13,
+		"category": "Furniture",
+		"defname": "LT_DoorMatBigGreen"
+	},
+	{
+		"abr": "largedoormat(orange)",
+		"price": 13,
+		"category": "Furniture",
+		"defname": "LT_DoorMatBigOrange"
+	},
+	{
+		"abr": "largedoormat(red)",
+		"price": 13,
+		"category": "Furniture",
+		"defname": "LT_DoorMatBigRed"
+	},
+	{
+		"abr": "largedoormat(teal)",
+		"price": 13,
+		"category": "Furniture",
+		"defname": "LT_DoorMatBigTeal"
+	},
+	{
+		"abr": "largeradiator",
+		"price": 252,
+		"category": "Hygiene",
+		"defname": "RadiatorLarge"
+	},
+	{
+		"abr": "latrine",
+		"price": 55,
+		"category": "Hygiene",
+		"defname": "PitLatrine"
+	},
+	{
+		"abr": "litterbox",
+		"price": 52,
+		"category": "Hygiene",
+		"defname": "LitterBox"
+	},
+	{
+		"abr": "logboiler",
+		"price": 642,
+		"category": "Hygiene",
+		"defname": "LogBoiler"
+	},
+	{
+		"abr": "macrevolver",
+		"price": 333,
+		"category": "Ranged weapons",
+		"defname": "AC_Gun_MACRevolver"
+	},
+	{
+		"abr": "macrifle",
+		"price": 1483,
+		"category": "Ranged weapons",
+		"defname": "AC_Gun_MACRifle"
+	},
+	{
+		"abr": "magneticshield",
+		"price": 1633,
+		"category": "Power",
+		"defname": "Building_RTMagneticShield"
+	},
+	{
+		"abr": "makeshiftfuse",
+		"price": 120,
+		"category": "Power",
+		"defname": "Building_RTMakeshiftFuse"
+	},
+	{
+		"abr": "managerdesk",
+		"price": 508,
+		"category": "Production",
+		"defname": "FM_ManagerStation"
+	},
+	{
+		"abr": "mutanitebed",
+		"price": 408,
+		"category": "Furniture",
+		"defname": "MutaniteBed"
+	},
+	{
+		"abr": "plumbingvalve",
+		"price": 50,
+		"category": "Hygiene",
+		"defname": "plumbingValve"
+	},
+	{
+		"abr": "powershower",
+		"price": 170,
+		"category": "Hygiene",
+		"defname": "ShowerAdvStuff"
+	},
+	{
+		"abr": "protectoratearmor",
+		"price": 4392,
+		"category": "Armor",
+		"defname": "AC_Apparel_ProtectorateArmor"
+	},
+	{
+		"abr": "protectoratehelmet",
+		"price": 1683,
+		"category": "Headgear",
+		"defname": "AC_Apparel_ProtectorateArmorHelmet"
+	},
+	{
+		"abr": "quadrefrigerator",
+		"price": 307,
+		"category": "Furniture",
+		"defname": "RimFridge_QuadRefrigerator"
+	},
+	{
+		"abr": "quickfirepistol",
+		"price": 417,
+		"category": "Ranged weapons",
+		"defname": "AC_Gun_QuickfirePistol"
+	},
+	{
+		"abr": "radiator",
+		"price": 85,
+		"category": "Hygiene",
+		"defname": "RadiatorStuffed"
+	},
+	{
+		"abr": "shockpdw",
+		"price": 917,
+		"category": "Ranged weapons",
+		"defname": "AC_Gun_ShockPDW"
+	},
+	{
+		"abr": "shower",
+		"price": 90,
+		"category": "Hygiene",
+		"defname": "ShowerStuff"
+	},
+	{
+		"abr": "simpleshower",
+		"price": 52,
+		"category": "Hygiene",
+		"defname": "ShowerSimple"
+	},
+	{
+		"abr": "singlerefrigerator",
+		"price": 121,
+		"category": "Furniture",
+		"defname": "RimFridge_SingleRefrigerator"
+	},
+	{
+		"abr": "smarttoilet",
+		"price": 182,
+		"category": "Hygiene",
+		"defname": "ToiletAdvStuff"
+	},
+	{
+		"abr": "thermostat",
+		"price": 86,
+		"category": "Hygiene",
+		"defname": "Thermostat"
+	},
+	{
+		"abr": "toilet",
+		"price": 72,
+		"category": "Hygiene",
+		"defname": "ToiletStuff"
+	},
+	{
+		"abr": "walk-infreezerunit",
+		"price": 153,
+		"category": "Hygiene",
+		"defname": "FreezerUnit"
+	},
+	{
+		"abr": "walldualrefrigerator",
+		"price": 186,
+		"category": "Furniture",
+		"defname": "RimFridge_WallRefrigerator"
+	},
+	{
+		"abr": "walllight",
+		"price": 16,
+		"category": "Furniture",
+		"defname": "Lighting_MURWallLight"
+	},
+	{
+		"abr": "walllight(azure)",
+		"price": 16,
+		"category": "Furniture",
+		"defname": "Lighting_MURWallLightAzure"
+	},
+	{
+		"abr": "walllight(blue)",
+		"price": 16,
+		"category": "Furniture",
+		"defname": "Lighting_MURWallLightBlue"
+	},
+	{
+		"abr": "walllight(chartreuse)",
+		"price": 16,
+		"category": "Furniture",
+		"defname": "Lighting_MURWallLightChartreuse"
+	},
+	{
+		"abr": "walllight(cyan)",
+		"price": 16,
+		"category": "Furniture",
+		"defname": "Lighting_MURWallLightCyan"
+	},
+	{
+		"abr": "walllight(green)",
+		"price": 16,
+		"category": "Furniture",
+		"defname": "Lighting_MURWallLightGreen"
+	},
+	{
+		"abr": "walllight(magenta)",
+		"price": 16,
+		"category": "Furniture",
+		"defname": "Lighting_MURWallLightMagenta"
+	},
+	{
+		"abr": "walllight(orange)",
+		"price": 16,
+		"category": "Furniture",
+		"defname": "Lighting_MURWallLightOrange"
+	},
+	{
+		"abr": "walllight(red)",
+		"price": 16,
+		"category": "Furniture",
+		"defname": "Lighting_MURWallLightRed"
+	},
+	{
+		"abr": "walllight(rose)",
+		"price": 16,
+		"category": "Furniture",
+		"defname": "Lighting_MURWallLightRose"
+	},
+	{
+		"abr": "walllight(springgreen)",
+		"price": 16,
+		"category": "Furniture",
+		"defname": "Lighting_MURWallLightSpringGreen"
+	},
+	{
+		"abr": "walllight(violet)",
+		"price": 16,
+		"category": "Furniture",
+		"defname": "Lighting_MURWallLightViolet"
+	},
+	{
+		"abr": "walllight(yellow)",
+		"price": 16,
+		"category": "Furniture",
+		"defname": "Lighting_MURWallLightYellow"
+	},
+	{
+		"abr": "wallsinglerefrigerator",
+		"price": 121,
+		"category": "Furniture",
+		"defname": "RimFridge_SingleWallRefrigerator"
+	},
+	{
+		"abr": "wallsunlight",
+		"price": 16,
+		"category": "Furniture",
+		"defname": "Lighting_MURWallSunLight"
+	},
+	{
+		"abr": "washingmachine",
+		"price": 433,
+		"category": "Hygiene",
+		"defname": "WashingMachine"
+	},
+	{
+		"abr": "waterbutt",
+		"price": 89,
+		"category": "Furniture",
+		"defname": "WaterButt"
+	},
+	{
+		"abr": "watertub",
+		"price": 52,
+		"category": "Hygiene",
+		"defname": "WashBucket"
+	},
+	{
+		"abr": "guestbed",
+		"price": 155,
+		"category": "Furniture",
+		"defname": "BedGuest"
+	},
+	{
+		"abr": "guestbedroll",
+		"price": 137,
+		"category": "Furniture",
+		"defname": "BedrollGuest"
+	},
+	{
+		"abr": "guestdoublebed",
+		"price": 292,
+		"category": "Furniture",
+		"defname": "DoubleBedGuest"
+	},
+	{
+		"abr": "guestdoublebedroll",
+		"price": 290,
+		"category": "Furniture",
+		"defname": "BedrollDoubleGuest"
+	},
+	{
+		"abr": "guesthospitalbed",
+		"price": 667,
+		"category": "Furniture",
+		"defname": "HospitalBedGuest"
+	},
+	{
+		"abr": "guestmutanitebed",
+		"price": 408,
+		"category": "Furniture",
+		"defname": "MutaniteBedGuest"
+	},
+	{
+		"abr": "guestroyalbed",
+		"price": 1467,
+		"category": "Furniture",
+		"defname": "RoyalBedGuest"
 	}
 	],
-	"total": 910
+	"total": 1001
 }
