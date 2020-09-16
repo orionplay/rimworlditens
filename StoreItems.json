@@ -506,31 +506,31 @@
 	},
 	{
 		"abr": "bionicarm",
-		"price": 1658,
+		"price": 1717,
 		"category": "Bionic",
 		"defname": "BionicArm"
 	},
 	{
 		"abr": "bionicear",
-		"price": 1067,
+		"price": 1308,
 		"category": "Bionic",
 		"defname": "BionicEar"
 	},
 	{
 		"abr": "bioniceye",
-		"price": 1367,
+		"price": 1717,
 		"category": "Bionic",
 		"defname": "BionicEye"
 	},
 	{
 		"abr": "bionicleg",
-		"price": 1658,
+		"price": 1717,
 		"category": "Bionic",
 		"defname": "BionicLeg"
 	},
 	{
 		"abr": "bionicspine",
-		"price": 1658,
+		"price": 1717,
 		"category": "Bionic",
 		"defname": "BionicSpine"
 	},
@@ -1034,7 +1034,7 @@
 	},
 	{
 		"abr": "cochlearimplant",
-		"price": 295,
+		"price": 367,
 		"category": "Prosthetic",
 		"defname": "CochlearImplant"
 	},
@@ -1088,7 +1088,7 @@
 	},
 	{
 		"abr": "corset",
-		"price": 168,
+		"price": 222,
 		"category": "Noble apparel",
 		"defname": "Apparel_Corset"
 	},
@@ -1346,7 +1346,7 @@
 	},
 	{
 		"abr": "drillarm",
-		"price": 692,
+		"price": 708,
 		"category": "Prosthetic",
 		"defname": "DrillArm"
 	},
@@ -1478,7 +1478,7 @@
 	},
 	{
 		"abr": "elbowblade",
-		"price": 575,
+		"price": 592,
 		"category": "Prosthetic",
 		"defname": "ElbowBlade"
 	},
@@ -1628,7 +1628,7 @@
 	},
 	{
 		"abr": "fieldhand",
-		"price": 692,
+		"price": 708,
 		"category": "Prosthetic",
 		"defname": "FieldHand"
 	},
@@ -1892,7 +1892,7 @@
 	},
 	{
 		"abr": "greatbow",
-		"price": 221,
+		"price": 174,
 		"category": "Ranged weapons",
 		"defname": "Bow_Great"
 	},
@@ -1928,7 +1928,7 @@
 	},
 	{
 		"abr": "handtalon",
-		"price": 575,
+		"price": 592,
 		"category": "Prosthetic",
 		"defname": "HandTalon"
 	},
@@ -2312,7 +2312,7 @@
 	},
 	{
 		"abr": "joywire",
-		"price": 350,
+		"price": 367,
 		"category": "Prosthetic",
 		"defname": "Joywire"
 	},
@@ -2330,7 +2330,7 @@
 	},
 	{
 		"abr": "kneespike",
-		"price": 575,
+		"price": 592,
 		"category": "Prosthetic",
 		"defname": "KneeSpike"
 	},
@@ -2354,7 +2354,7 @@
 	},
 	{
 		"abr": "ladieshat",
-		"price": 94,
+		"price": 203,
 		"category": "Headgear",
 		"defname": "Apparel_HatLadies"
 	},
@@ -2594,7 +2594,7 @@
 	},
 	{
 		"abr": "mindscrew",
-		"price": 333,
+		"price": 350,
 		"category": "Prosthetic",
 		"defname": "Mindscrew"
 	},
@@ -3344,7 +3344,7 @@
 	},
 	{
 		"abr": "painstopper",
-		"price": 350,
+		"price": 367,
 		"category": "Prosthetic",
 		"defname": "Painstopper"
 	},
@@ -3476,7 +3476,7 @@
 	},
 	{
 		"abr": "pila",
-		"price": 275,
+		"price": 182,
 		"category": "Ranged weapons",
 		"defname": "Pila"
 	},
